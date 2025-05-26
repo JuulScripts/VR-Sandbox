@@ -1,0 +1,54 @@
+{
+    "name": "VRcontrol",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "80d3156c-5d11-4f1c-8399-72dc382e7376",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "cd76c3ba-4c02-4065-9441-506ff80269a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Boost",
+                    "type": "Value",
+                    "id": "4f4cfbc6-ced9-4202-ad85-93f559346532",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f96e9da-d0e3-41a3-b953-cdfc37b619e8",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9d2233b-3c67-432c-903a-46567ea203f6",
+                    "path": "<XRController>{LeftHand}/primaryButton ",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
